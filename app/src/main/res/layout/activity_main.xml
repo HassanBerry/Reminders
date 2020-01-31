@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="28dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="    Select Course"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:layout_marginBottom="101dp"
+        android:text="Schedule Meeting"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#0C0000"
+        android:textSize="50sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:dropDownWidth="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="253dp"
+        android:text="      Select Type"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+                android:layout_width="229dp"
+                android:layout_height="137dp"
+                android:background="#FAFAFA"
+                android:onClick="OpenNext"
+                android:tint="#0C40FC"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinner2"
+                app:srcCompat="@drawable/next1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
