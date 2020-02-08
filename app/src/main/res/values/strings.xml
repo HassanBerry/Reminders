@@ -1,3 +1,57 @@
 <resources>
     <string name="app_name">Reminders</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string-array name="CS">
+        <item> Please Select Class…</item>
+        <item> E1 </item>
+        <item> E2 </item>
+        <item> E3 </item>
+        <item> E4 </item>
+        <item> E5 </item>
+        <item> E6 </item>
+        <item> Lab 1 </item>
+        <item> Lab 3</item>
+        <item> Lab 4</item>
+
+    </string-array>
+
+    <string-array name="EE">
+        <item> Please Select Class…</item>
+        <item> CR1 </item>
+        <item> CR2 </item>
+        <item> CR3 </item>
+        <item> CR4 </item>
+        <item> CR5 </item>
+        <item> CR6 </item>
+        <item> CR7 </item>
+        <item> CR8 </item>
+        <item> CR9 </item>
+        <item> CR10 </item>
+        <item> CR11</item>
+        <item> CR12 </item>
+        <item> CR13 </item>
+        <item> CR14 </item>
+        <item> CR15 </item>
+        <item> CR16 </item>
+        <item> CR17 </item>
+        <item> CR18 </item>
+        <item> CR19 </item>
+
+
+    </string-array>
+
+    <string-array name="SC">
+        <item> Please Select Library Discussion Room…</item>
+        <item> Discussion Room 1 </item>
+        <item> Discussion Room 2 </item>
+        <item> Discussion Room 3 </item>
+        <item> Discussion Room 4 </item>
+        <item> Discussion Room 5 </item>
+        <item> Discussion Room 6 </item>
+        <item> Discussion Room 7 </item>
+        <item> Discussion Room 8 </item>
+
+
+    </string-array>
+
 </resources>

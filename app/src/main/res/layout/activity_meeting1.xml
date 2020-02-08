@@ -92,6 +92,7 @@
         android:id="@+id/imageView2"
         android:layout_width="85dp"
         android:layout_height="85dp"
+        android:onClick="onClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
         app:layout_constraintHorizontal_bias="0.474"
@@ -104,6 +105,7 @@
         android:id="@+id/imageView3"
         android:layout_width="85dp"
         android:layout_height="85dp"
+        android:onClick="onClick1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -115,6 +117,7 @@
         android:id="@+id/imageView4"
         android:layout_width="85dp"
         android:layout_height="85dp"
+        android:onClick="onClick2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.858"
@@ -122,4 +125,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.883"
         app:srcCompat="@drawable/asc" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

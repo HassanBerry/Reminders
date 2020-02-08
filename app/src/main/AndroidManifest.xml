@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Meeting1"></activity>
+        <activity android:name=".finalmeeting"></activity>
+        <activity android:name=".Test" />
+        <activity android:name=".Meeting2" />
+        <activity android:name=".Meeting1" />
         <activity android:name=".Reminder3" />
         <activity android:name=".Reminders2" />
         <activity android:name=".MainActivity">
